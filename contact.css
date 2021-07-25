@@ -1,0 +1,236 @@
+*{
+    padding: 0%;
+    margin: 0;
+    box-sizing: border-box;
+    }
+    
+    
+    html{
+        font-family: 'Lato', sans-serif;
+        font-size: 10px;
+    }
+    
+    body{
+        line-height: 135%;
+    }
+    
+    .grey-rule{
+        width: 90px;
+        height: 1px;
+        margin-top: 25px;
+        margin-bottom: 25px;
+        background-color: #c7c7c7;
+    }
+    
+    .text-uppercase{
+        text-transform: uppercase;
+    }
+    
+    .clearfix::after {
+        content: "";
+        clear: both;
+        display: table;
+    }
+    
+    
+    /*left-side*/
+    
+    #left-side {
+        width: 400px;
+        background-color:#fff;
+        float: left;
+        position: fixed;
+       
+    }
+    
+    #left-side .container{
+        padding: 50px;
+    }
+    
+    
+    /* header */
+    
+    header .container{
+        padding: 50px;
+    }
+    
+    header h1{
+        font-size: 36px;
+        color: #333;
+        font-weight: 400;
+        cursor: pointer;
+        display: block;
+        line-height: 100%;
+    }
+    
+    header p{
+        font-size: 1.4rem;
+        color: #aaa;
+        line-height: 145%;
+    }
+    
+    /* navbar */
+    
+    #navbar .navbar-link{
+        list-style: none;
+    
+    }
+    
+    .navbar-link{
+        display: block;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        padding-right: 0px;
+        padding-left: 0px
+    }
+    .navbar-link a{
+        text-decoration: none;
+        color: #aaa;
+        font-size: 12px;
+        font-weight: 700;
+        letter-spacing: 1px;
+        transition: color 0.5s ease;
+    }
+    
+    .navbar-link a:hover{
+        color:#333;
+    }
+    
+    .logos{
+        padding-bottom: 1.5rem;
+    }
+    
+    .social-logo{
+        float: left;
+        margin-left: 5px;
+        list-style: none;
+        display: inline-block;
+       
+        
+    }
+    
+    .social-logo a{
+        color: #aaa;
+        transition: color 0.5s ease;
+        cursor: pointer;
+    }
+    
+    .social-logo a:hover{
+        color:#333;
+    }
+    
+    .social-logo i{
+    font-size: 2rem;
+    margin-right: 5px;
+    }
+    
+    .social .text{
+        font-size: 1rem;
+        letter-spacing: 1px;
+        color: #aaa;
+    }
+    
+    #navbar span a{
+        cursor: pointer;
+        color: #aaa;
+       
+    }
+    
+    #navbar span a:hover{
+    color:#333
+    }
+
+    /* right-side */
+
+#right-side{
+    
+    background-color: rgb(240,240,240);
+    margin-left: 400px;
+    padding: 50px;
+    
+}
+
+.blog-container{
+    margin-bottom: 5rem;
+}
+
+
+
+#right-side .content{
+    padding: 35px;
+}
+
+
+.content{
+    background-color: #fff;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.content .blog-title{
+    margin-bottom: 15px;
+    font-size: 35px;
+    line-height: 135%;
+    font-weight: 400;
+    color: black;
+}
+
+.blog-content-p{
+    font-size: 1.4rem;
+    color: rgb(51, 51, 51);
+    line-height: 22.4px;
+    margin-bottom: 20px;
+}
+
+/* form */
+
+.form-title{
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 7px;
+}
+
+form input, form textarea{
+    display: block;
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 8px 12px;
+    border-radius: 3px;
+    border: 1px solid #cccccc;
+    font-family Lato, sans-serif;
+    box-sizing: border-box;
+    line-height: 20px;
+}
+
+form input:focus, form textarea:focus{
+    border: 1px #80bdff solid;
+    outline: 0;
+}
+
+form input::placeholder, form textarea::placeholder{
+    font-family: 'Lato', sans-serif;
+    
+}
+
+/* btn */
+
+#right-side .btn{
+    display: inline-block;
+    padding: 11px 20px;
+    border-radius: 3px;
+    color: white;
+    font-size: 16px;
+    background-color: #888;
+    font-weight: 400;
+    cursor: pointer;
+    transition: color 0.5s ease;
+    border: none;
+    font-family: 'lato';
+}
+
+#right-side .btn:hover{
+    background-color: #333;
+}
+
+
+
